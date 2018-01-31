@@ -1,0 +1,129 @@
+@font-face{
+    font-family:'edo';
+    src: url('edo 2.ttf')
+}
+html{
+    background-color:#2a6d73;
+}
+#background{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    filter: blur(10px);
+}
+#edo{
+    font-family: edo;
+    color: #2a6d73;
+    text-align: center;
+    font-size: 64px;
+}
+.blocks{
+    background-color:rgba(239,239,225,.6
+    );
+    width:80%;
+    height: 100%; 
+    margin:auto;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    
+}
+.blocks:hover{
+    background-color: rgba(239,239,225,1);
+    width: 100%;
+}
+p{
+    font-family:raleway;
+    text-align:center;
+    font-size:24px;
+    color:#2a6d73;
+}
+.signup {
+  display:block;
+  border-radius: 4px;
+  background-color: #2a6d73;
+  border: none;
+  color: #FFFFF0;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 10px;    
+}
+
+.signup span {
+  cursor: pointer;
+  display: inline-block;
+  position:relative;
+  transition: 0.5s;
+}
+
+.signup span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+    color:#fffff0;
+}
+
+.signup:hover span {
+  padding-right: 25px;
+}
+
+.signup:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+nav{
+    display:block;
+    text-align: center;
+    margin-right:47px;
+}
+
+}
+ul{
+    list-style: none;
+}
+li{
+    display:inline-block;
+    cursor:pointer;
+    align-items: stretch
+}
+
+.social{
+    width:48px;
+    height:48px;
+    padding:20px;
+    opacity: inherit;
+}
+
+.social:hover{
+    opacity:.6;
+}
+
+.social:active{
+    color:#99dc00;
+}
+
+#subscribe:link{
+    color:#fffff0;
+}
+
+#subscribe:visited{
+    color:#99dc00;
+}
+#subscribe:hover{
+    color:#fffff0;
+}
+#subscribe:active{
+    color:#99dc00;
+}
